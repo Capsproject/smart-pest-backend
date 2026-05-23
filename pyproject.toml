@@ -1,0 +1,13 @@
+[project]
+name = "smart-pest-backend"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.14"
+dependencies = [
+    "aiosqlite>=0.22.1",
+    "alembic>=1.18.4",
+    "bcrypt==4.3.0",
+    "greenlet>=3.5.1",
+    "pyjwt==2.10.1",
+    "sqlalchemy==2.0.41",
+]
